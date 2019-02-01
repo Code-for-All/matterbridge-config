@@ -15,7 +15,7 @@ IconURL="https://github.com/identicons/{NICK}.png"
 Label="Code for All"
 
 [slack.epanstwo]
-Label="ePanstwo :flag-pl:"
+Label="ePanstwo PL"
 
 [slack.cfpoland]
 # Slack: kodujdlapolski​
@@ -44,17 +44,119 @@ Label="Code for Africa"
 #Label="TransparenCEE"
 
 ######################
-# GATEWAYS = BRIDGES
+# GATEWAYS(BRIDGES) for Code for All
 
 [[gateway]]
-    name = "test"
+    name = "general"
     enable = true
 
     [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "general"
+
+    [[gateway.inout]]
     account = "slack.epanstwo"
-    channel = "mbtest"
+    channel = "cfall-general"
+
+    [[gateway.inout]]
+    account = "slack.cfpoland"
+    channel = "cfall-general"
+
+
+[[gateway]]
+    name = "just-random"
+    enable = true
 
     [[gateway.inout]]
     account = "slack.codeforall"
-    channel = "mbtest"
+    channel = "random"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-random"
+
+
+[[gateway]]
+    name = "introductions"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "introductions"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-introductions"
+
+
+[[gateway]]
+    name = "readingroom"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "readingroom"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-readingroom"
+
+
+[[gateway]]
+    name = "events"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "events"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-events"
+
+
+[[gateway]]
+    name = "wins"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "wins"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-wins"
+
+
+[[gateway]]
+    name = "just-starting"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "just-starting"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-just-starting"
+
+
+[[gateway]]
+    name = "members"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "members"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "members"
+
+######################
+# GATEWAYS(BRIDGES) for member channels, such as cfjapan#general <-> cfall#cfjapan-general  (possibly with translation)
+
+
+
+
 
