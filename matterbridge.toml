@@ -64,7 +64,7 @@ Label="Code for Africa"
 
 
 [[gateway]]
-    name = "just-random"
+    name = "random"
     enable = true
 
     [[gateway.inout]]
@@ -87,6 +87,19 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "cfall-introductions"
+
+
+[[gateway]]
+    name = "fundraising"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "fundraising"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-fundraising"
 
 
 [[gateway]]

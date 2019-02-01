@@ -5,7 +5,7 @@ A Matterbridge config file to connect all of our communications.
 ## Adding new organizations and channels
 
 1. Provide the channels that you want to connect
-      We suggest that on your Slack you open the references of default channels here: `#cfall-general`, `#cfall-introductions`, `#cfall-readingroom`, `#cfall-events`, `#cfall-wins`, `#cfall-just-starting`, `#cfall-random`, `#cfall-members` (private for members). 
+      We suggest that on your Slack you open the references of default channels here: `#cfall-general`, `#cfall-introductions`, `#cfall-readingroom`, `#cfall-events`, `#cfall-fundraising`, `#cfall-wins`, `#cfall-just-starting`, `#cfall-random`, `#cfall-members` (private for members). 
       
       We would love also to link your active open channels. Should we link your `#general` to Code for All's `#cfcountry-general`?
       
