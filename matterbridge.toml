@@ -164,7 +164,7 @@ Label="Code for Africa"
 
     [[gateway.inout]]
     account = "slack.epanstwo"
-    channel = "members"
+    channel = "cfall-members"
 
 ######################
 # GATEWAYS(BRIDGES) for member channels, such as cfjapan#general <-> cfall#cfjapan-general  (possibly with translation)
