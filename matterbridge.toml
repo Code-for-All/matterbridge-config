@@ -2,9 +2,10 @@
 RemoteNickFormat="[{LABEL} #{CHANNEL}] @{NICK}"
 TranslationAttribution=" [translated by :google:]"
 PreserveThreading=true
-ShowUserTyping=true
+ShowUserTyping=false
 MediaDownloadSize=1000000
-ShowJoinPart=true
+ShowJoinPart=false
+NoSendJoinPart=false
 # When someone is speaking from a platform without avatars, generate one from usernames
 IconURL="https://github.com/identicons/{NICK}.png"
 
