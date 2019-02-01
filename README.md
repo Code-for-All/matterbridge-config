@@ -1,6 +1,6 @@
 # Code for All's one ring to rule them all
 
-A Matterbridge config file to connect all of our communications.
+A [Matterbridge](https://github.com/42wim/matterbridge/) config file to connect all of our communications.
 
 ## Adding new organizations and channels
 
