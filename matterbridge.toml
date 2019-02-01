@@ -1,0 +1,60 @@
+[general]
+RemoteNickFormat="[{LABEL} #{CHANNEL}] @{NICK}"
+TranslationAttribution=" [translated by :google:]"
+PreserveThreading=true
+ShowUserTyping=true
+MediaDownloadSize=1000000
+ShowJoinPart=true
+# When someone is speaking from a platform without avatars, generate one from usernames
+IconURL="https://github.com/identicons/{NICK}.png"
+
+
+[slack]
+
+[slack.codeforall]
+Label="Code for All"
+
+[slack.epanstwo]
+Label="ePanstwo :flag-pl:"
+
+[slack.cfpoland]
+# Slack: kodujdlapolski​
+Label="Code for Poland"
+
+[slack.cfjapan]
+# Slack: cfj
+Label="Code for Japan"
+
+[slack.g0vtw]
+Label="g0v :flag-tw:"
+
+[slack.cfromania]
+# Slack: codeforromania
+Label="Code for Romania"
+
+[slack.cfamerica]
+# Slack: cfa
+Label="Code for America"
+
+[slack.cfafrica]
+# Slack: code4africa
+Label="Code for Africa"
+
+#[slack.transparencee​]
+#Label="TransparenCEE"
+
+######################
+# GATEWAYS = BRIDGES
+
+[[gateway]]
+    name = "test"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "mbtest"
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "mbtest"
+
