@@ -63,6 +63,10 @@ Label="Code for Africa"
     account = "slack.cfpoland"
     channel = "cfall-general"
 
+    [[gateway.inout]]
+    account = "slack.cfafrica"
+    channel = "code-for-all-general"
+
 
 [[gateway]]
     name = "random"
@@ -102,6 +106,10 @@ Label="Code for Africa"
     account = "slack.epanstwo"
     channel = "cfall-fundraising"
 
+    [[gateway.out]]
+    account = "slack.cfafrica"
+    channel = "awards-events-grants"
+
 
 [[gateway]]
     name = "readingroom"
@@ -127,6 +135,10 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "cfall-events"
+
+    [[gateway.out]]
+    account = "slack.cfafrica"
+    channel = "awards-events-grants"
 
 
 [[gateway]]
@@ -166,6 +178,25 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "cfall-members"
+
+
+## Topical channels
+
+[[gateway]]
+    name = "sensors"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "sensors"
+
+    [[gateway.inout]]
+    account = "slack.cfafrica"
+    channel = "open-sensors"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "cfall-sensors"
 
 ######################
 # GATEWAYS(BRIDGES) for member channels, such as cfjapan#general <-> cfall#cfjapan-general  (possibly with translation)
