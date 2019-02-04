@@ -123,6 +123,14 @@ Label="Code for Africa"
     account = "slack.epanstwo"
     channel = "cfall-readingroom"
 
+    [[gateway.inout]]
+    account = "slack.cfafrica"
+    channel = "cfall-readingroom"
+
+    [[gateway.inout]]
+    account = "slack.cfpoland"
+    channel = "cfall-readingroom"
+
 
 [[gateway]]
     name = "events"
