@@ -140,6 +140,10 @@ Label="Code for Africa"
     account = "slack.cfafrica"
     channel = "awards-events-grants"
 
+    [[gateway.inout]]
+    account = "slack.cfpoland"
+    channel = "cfall-events"
+
 
 [[gateway]]
     name = "wins"
@@ -196,6 +200,10 @@ Label="Code for Africa"
 
     [[gateway.inout]]
     account = "slack.epanstwo"
+    channel = "cfall-sensors"
+
+    [[gateway.inout]]
+    account = "slack.cfpoland"
     channel = "cfall-sensors"
 
 ######################
