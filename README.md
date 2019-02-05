@@ -34,7 +34,7 @@ Geographical:
       We would love also to link your active open channels. Should we link your `#general` to Code for All's `#cfcountry-general`?
       
     - Send a pull request updating the files in this repo (`matterbridge.toml` and `template.env`)
-    - **OR** [Open an issue](https://github.com/Code-for-All/matterbridge-config/issues/new) specyfing which channels would you like to link. 
+    - **OR** [Open an issue](https://github.com/Code-for-All/matterbridge-config/issues/new/choose) specyfing which channels would you like to link. 
        
 2. Create a bot app
 
