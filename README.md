@@ -13,6 +13,7 @@ General ones:
 - `#wins` – Sharing our achievements throughout the year (if possible link related post). Posts will be used for external communication, yearly reports, donors 
 - `#just-starting` – We share information about our new projects at their earliest stage to enable cooperation on them.
 - `#events` - Purpose: Sharing events we are organizing or planning to attend. If you want to start start discussion about common session's proposals or other event-related talk start a subchannel (ie. #events-ogp-summit) and invite interested people there.
+- `#staff-announcements` [private] – Key announcements to the Code for All network members. Just what you need to know. No chatter.
 - `#members` [private] – [Official members](https://codeforall.org/members) of the Code for All network
 
 Topical:
