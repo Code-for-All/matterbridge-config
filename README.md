@@ -20,7 +20,8 @@ Topical:
 - `#sensors` - Hardware for social change
 
 Meta to our work:
-- `#fellows` – A place to complain on government beaurocracy ;) 
+- `#fellows` – A place to complain on government beaurocracy ;)
+- `#inclusivity` - Strategies for making everyone feel like they belong. 
 
 Geographical:
 - `#region-[region]` - ie. #region-europe for Europe related talk (altough in that very specific case we have #code-for-europe)
