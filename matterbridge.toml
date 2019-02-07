@@ -15,6 +15,10 @@ IconURL="https://github.com/identicons/{NICK}.png"
 [slack.codeforall]
 Label="Code for All"
 
+[slack.cfaustralia]
+# Slack: codeforaustralia
+Label="Code for Australia"
+
 [slack.epanstwo]
 Label="ePanstwo PL"
 
@@ -66,6 +70,10 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.cfafrica"
     channel = "code-for-all-general"
+
+    [[gateway.inout]]
+    account = "slack.cfaustralia"
+    channel = "code-for-all-chatter"
 
 
 [[gateway]]
@@ -126,6 +134,10 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.cfafrica"
     channel = "cfall-readingroom"
+
+    [[gateway.inout]]
+    account = "slack.cfaustralia"
+    channel = "code-for-all-news"
 
     [[gateway.inout]]
     account = "slack.cfpoland"
@@ -214,10 +226,19 @@ Label="Code for Africa"
     account = "slack.cfpoland"
     channel = "cfall-sensors"
 
+
 ######################
 # GATEWAYS(BRIDGES) for member channels, such as cfjapan#general <-> cfall#cfjapan-general  (possibly with translation)
 
+[[gateway]]
+    name = "cfaustralia-general"
+    enable = true
 
+    [[gateway.inout]]
+    account = "slack.cfaustralia"
+    channel = "general"
 
-
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "code-for-australia"
 
