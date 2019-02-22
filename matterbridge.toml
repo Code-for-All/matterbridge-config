@@ -227,6 +227,31 @@ Label="Code for Africa"
     channel = "cfall-sensors"
 
 
+[[gateway]]
+    name = "knowledge"
+    enable = false
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "knowledge"
+
+    [[gateway.inout]]
+    account = "slack.cfromania"
+    channel = "knowledge"
+    
+[[gateway]]
+    name = "learn-python"
+    enable = false
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "learn-python"
+
+    [[gateway.inout]]
+    account = "slack.cfromania"
+    channel = "learn-python"
+
+
 ######################
 # GATEWAYS(BRIDGES) for member channels, such as cfjapan#general <-> cfall#cfjapan-general  (possibly with translation)
 
