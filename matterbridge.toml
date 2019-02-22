@@ -19,6 +19,9 @@ Label="Code for All"
 # Slack: codeforaustralia
 Label="Code for Australia"
 
+[slack.cfcanada]
+Label="Code for Canada"
+
 [slack.epanstwo]
 Label="ePanstwo PL"
 
@@ -202,6 +205,26 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "cfall-members"
+
+#    [[gateway.inout]]
+#    account = "slack.cfcanada"
+#    channel = "cfall-members"
+
+#
+#
+#
+
+[[gateway]]
+    name = "staff-announcements"
+    enable = false
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "staff-announcements"
+
+    [[gateway.inout]]
+    account = "slack.cfcanada"
+    channel = "cfall-announcements"
 
 
 ## Topical channels
