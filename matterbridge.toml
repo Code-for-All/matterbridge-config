@@ -146,6 +146,10 @@ Label="Code for Africa"
     account = "slack.cfpoland"
     channel = "cfall-readingroom"
 
+#   [[gateway.inout]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113510@g.us"
+
 
 [[gateway]]
     name = "events"
@@ -167,6 +171,10 @@ Label="Code for Africa"
     account = "slack.cfpoland"
     channel = "cfall-events"
 
+#   [[gateway.inout]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113537@g.us"
+
 
 [[gateway]]
     name = "wins"
@@ -179,6 +187,10 @@ Label="Code for Africa"
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "cfall-wins"
+
+#   [[gateway.inout]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113568@g.us"
 
 
 [[gateway]]
@@ -210,9 +222,10 @@ Label="Code for Africa"
 #    account = "slack.cfcanada"
 #    channel = "cfall-members"
 
-#
-#
-#
+#   [[gateway.inout]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113791@g.us"
+
 
 [[gateway]]
     name = "staff-announcements"
@@ -222,9 +235,13 @@ Label="Code for Africa"
     account = "slack.codeforall"
     channel = "staff-announcements"
 
-    [[gateway.inout]]
+    [[gateway.out]]
     account = "slack.cfcanada"
     channel = "cfall-announcements"
+
+#   [[gateway.out]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113838@g.us"
 
 
 ## Topical channels
@@ -290,3 +307,14 @@ Label="Code for Africa"
     account = "slack.codeforall"
     channel = "code-for-australia"
 
+#[[gateway]]
+#    name = "cfpakistan-point-of-contact"
+#    enable = true
+
+#   [[gateway.inout]]
+#   account = "whatsapp.cfpakistan"
+#   channel = "48577856119-1551113664@g.us"
+
+#    [[gateway.inout]]
+#    account = "slack.codeforall"
+#    channel = "code-for-pakistan"
