@@ -322,3 +322,15 @@ Label="Code for Africa"
 #    [[gateway.inout]]
 #    account = "slack.codeforall"
 #    channel = "code-for-pakistan"
+
+[[gateway]]
+    name = "ned-proposal2019"
+    enable = true
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "ned-proposal2019"
+
+    [[gateway.inout]]
+    account = "slack.epanstwo"
+    channel = "ned-proposal2019"
