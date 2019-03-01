@@ -239,6 +239,10 @@ Label="Code for Africa"
     account = "slack.cfcanada"
     channel = "cfall-announcements"
 
+    [[gateway.out]]
+    account = "slack.epanstwo"
+    channel = "cfall-announcements"
+
 #   [[gateway.out]]
 #   account = "whatsapp.cfpakistan"
 #   channel = "48577856119-1551113838@g.us"
