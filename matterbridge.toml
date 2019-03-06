@@ -273,7 +273,7 @@ Label="Code for Africa"
 
 [[gateway]]
     name = "knowledge"
-    enable = false
+    enable = true
 
     [[gateway.inout]]
     account = "slack.codeforall"
@@ -285,7 +285,7 @@ Label="Code for Africa"
     
 [[gateway]]
     name = "learn-python"
-    enable = false
+    enable = true
 
     [[gateway.inout]]
     account = "slack.codeforall"
