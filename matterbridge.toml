@@ -229,19 +229,19 @@ Label="Code for Africa"
 
 [[gateway]]
     name = "staff-announcements"
-    enable = false
+    enable = true
 
     [[gateway.inout]]
     account = "slack.codeforall"
     channel = "staff-announcements"
 
-    [[gateway.out]]
-    account = "slack.cfcanada"
-    channel = "cfall-announcements"
+#    [[gateway.out]]
+#    account = "slack.cfcanada"
+#    channel = "cfall-announcements"
 
     [[gateway.out]]
     account = "slack.epanstwo"
-    channel = "cfall-announcements"
+    channel = "cfall"
 
 #   [[gateway.out]]
 #   account = "whatsapp.cfpakistan"
