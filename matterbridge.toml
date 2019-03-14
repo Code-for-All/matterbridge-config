@@ -1,5 +1,5 @@
 [general]
-RemoteNickFormat="[{LABEL} #{CHANNEL}] @{NICK}"
+RemoteNickFormat="[{LABEL}] @{NICK}"
 TranslationAttribution=" [translated by :google:]"
 PreserveThreading=true
 ShowUserTyping=false
