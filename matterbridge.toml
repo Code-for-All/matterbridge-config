@@ -52,7 +52,7 @@ Label="Code for Africa"
 RemoteNickFormat="@{NICK}: "
 Label="Code for Pakistan"
 Number="+48577856119"
-SessionFile="session-577856119.gob"
+SessionFile="/mnt/volatile/session-577856119.gob"
 QrOnWhiteTerminal=false
 
 #[slack.transparencee​]
