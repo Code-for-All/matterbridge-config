@@ -48,7 +48,7 @@ Label="Code for America"
 # Slack: code4africa
 Label="Code for Africa"
 
-[whatsapp.cfall]
+[whatsapp.cfpakistan]
 RemoteNickFormat="@{NICK}: "
 Label="Code for Pakistan"
 Number="+48577856119"
