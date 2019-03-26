@@ -1,0 +1,18 @@
+# 1. Set tokens for slack in environment variables
+# 2. Create Storage Account with File Share
+# 3. Connect on your localhost to WhatsApp and upload session file to File Share (until https://github.com/42wim/matterbridge/issues/776 is resolved)
+az container create \
+    --resource-group matterbridge \
+    --name matterbridge-container \
+    --image 42wim/matterbridge:1.14.1 \
+    --os-type Linux \
+    --restart-policy OnFailure \
+    --command-line "/bin/matterbridge -conf /home/config/matterbridge.toml" \
+    --gitrepo-url https://github.com/Code-for-All/matterbridge-config \
+    --gitrepo-mount-path /home/config \
+    --azure-file-volume-account-name TODO_STORAGE_ACCOUNT_NAME \
+    --azure-file-volume-account-key TODO_STORAGE_ACCOUNT_KEY \
+    --azure-file-volume-share-name TOOD_SHARE_NAME \
+    --azure-file-volume-mount-path /mnt/volatile \
+    --environment-variables 'MATTERBRIDGE_SLACK_CODEFORALL_TOKEN'='xoxb-' 'MATTERBRIDGE_SLACK_EPANSTWO_TOKEN'='xoxb-'
+
