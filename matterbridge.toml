@@ -341,3 +341,15 @@ QrOnWhiteTerminal=false
     [[gateway.inout]]
     account = "slack.epanstwo"
     channel = "ned-proposal2019"
+
+[[gateway]]
+    name = "events-pdfcee2019"
+    enable = true
+
+    [[gateway.inout]]
+    account = "whatsapp.cfpakistan"
+    channel = "48664082823-1554379906@g.us"
+
+    [[gateway.inout]]
+    account = "slack.codeforall"
+    channel = "eventspdfcee2019"
