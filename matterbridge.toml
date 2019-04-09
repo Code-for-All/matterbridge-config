@@ -343,13 +343,13 @@ QrOnWhiteTerminal=false
     channel = "ned-proposal2019"
 
 [[gateway]]
-    name = "events-pdfcee2019"
+    name = "code-for-brazil-n-all"
     enable = true
 
     [[gateway.inout]]
     account = "whatsapp.cfpakistan"
-    channel = "48664082823-1554379906@g.us"
+    channel = "48577856119-1554829657@g.us"
 
     [[gateway.inout]]
     account = "slack.codeforall"
-    channel = "eventspdfcee2019"
+    channel = "code-for-brazil-n-all"
