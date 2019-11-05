@@ -263,7 +263,7 @@ Label="Code for Africa"
 
     [[gateway.inout]]
     account = "slack.codeforall"
-    channel = "sensors"
+    channel = "project-sensors"
 
     [[gateway.inout]]
     account = "slack.cfafrica"
