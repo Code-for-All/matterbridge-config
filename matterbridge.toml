@@ -318,9 +318,9 @@ Label="Code for Africa"
     account = "slack.codeforall"
     channel = "code-for-australia"
 
-[[gateway]]
-    name = "cfpakistan-point-of-contact"
-    enable = true
+# [[gateway]]
+#    name = "cfpakistan-point-of-contact"
+#    enable = true
 
 #   [[gateway.inout]]
 #   account = "whatsapp.cfpakistan"
