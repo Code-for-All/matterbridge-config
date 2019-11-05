@@ -4,7 +4,7 @@
 az container create \
     --resource-group matterbridge \
     --name matterbridge-container \
-    --image 42wim/matterbridge:1.14.1 \
+    --image 42wim/matterbridge:1.16.1 \
     --os-type Linux \
     --restart-policy OnFailure \
     --command-line "/bin/matterbridge -conf /home/config/matterbridge.toml" \
